@@ -93,18 +93,18 @@ body {
 
 #callToAction h1 {
   font-family: "Montserrat",sans-serif;
-  font-size: 30px;
+  font-size: 3em;
   font-weight: 600;
 }
 #callToAction p {
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.8em;
   font-weight: 400;
   text-align: center;
 }
 #callToAction a {
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5em;
   font-weight: 400;
   padding: 15px 30px;
   background-color: #434444;
@@ -124,10 +124,12 @@ body {
 /*---------- Styles pour la section des produits -------------*/
 
 #products {
-  padding: 1em;
+  width: 90vw;
+  margin: 0 auto;
 }
 #products h2 {
-  font-size: 30px;
+  font-size: 2.5em;
+  font-weight: 600;
   text-align: center;
   padding: 1em;
 }
@@ -149,7 +151,13 @@ body {
 .price {
   padding: 0.5em;
 }
-
+.product-item .product-title {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+.product-item .description {
+  text-align: justify;
+}
 /* ---------------Animation section products------------------ */
 
 .fa-solid {
@@ -159,6 +167,9 @@ body {
   cursor: pointer;
 }
 
+.fa-solid:hover {
+color:#7CFDF8;
+}
 .product-item {
   opacity: 0;
   animation: fadeIn 1s forwards, pulse 1s ease-in-out infinite alternate;
@@ -198,7 +209,8 @@ body {
  
 #gallery {
   width: 90vw;
-  margin: 0 auto;
+  margin: 20px auto;
+  margin-top: 3em;
   display: flex;
   flex-direction: row;
 }
@@ -225,7 +237,6 @@ body {
 }
 
 
-
 /* ----------Footer---------------- */
 #footer {
   display: flex;
@@ -243,7 +254,7 @@ body {
   height: auto;
   color: aliceblue;
   font-weight: 400;
-  font-size: 1.2em;
+  font-size: 1em;
   text-align: center;
 }
 
