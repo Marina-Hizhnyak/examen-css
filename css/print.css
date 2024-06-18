@@ -1,0 +1,20 @@
+/* Styles generaux pour l'impression */
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 8pt;
+  }
+
+  img,
+  nav,
+  footer {
+    display: none;
+  }
+
+  a:link {
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+  }
